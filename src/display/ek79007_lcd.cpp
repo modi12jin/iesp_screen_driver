@@ -12,7 +12,6 @@
 #include "esp_log.h"
 #include "Arduino.h"
 
-#include "esp_lcd_ek79007.h"
 #include "ek79007_lcd.h"
 
 #define LCD_H_RES 1024

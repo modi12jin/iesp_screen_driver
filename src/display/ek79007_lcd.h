@@ -1,5 +1,6 @@
-#ifndef _EK79007_LCD_H
-#define _EK79007_LCD_H
+#pragma once
+
+#include "native/esp_lcd_ek79007.h"
 #include <stdio.h>
 
 class ek79007_lcd
@@ -23,4 +24,3 @@ public:
 private:
     int8_t _lcd_rst;
 };
-#endif
